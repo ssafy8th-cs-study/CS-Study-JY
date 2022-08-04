@@ -38,7 +38,13 @@ https://www.youtube.com/channel/UCHFz--glnVVP1xBLA-8kltg
 https://www.youtube.com/playlist?list=PLgXGHBqgT2TvpJ_p9L_yZKPifgdBOzdVH
 
 
-# [1. 자료구조](./content/자료구조.md)
+# 1. 자료구조 [Link](./content/자료구조.md) 
+- [시간복잡도 , 공간복잡도](./content/자료구조/시간복잡도,공간복잡도.md)
+- [Array](./content/자료구조/Array.md)
+- [LinkedList](./content/자료구조/LinkedList.md)
+- [HashTable](./content/자료구조/HashTable.md)
+- [Stack](./content/자료구조/Stack.md)
+- [Queue](./content/자료구조/Queue.md)
 # [2. 알고리즘](./content/알고리즘.md)
 # [3. 네트워크](./content/네트워크.md)
 # [4. 운영체제](./content/운영체제.md)
