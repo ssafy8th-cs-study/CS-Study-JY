@@ -52,6 +52,7 @@ https://www.youtube.com/playlist?list=PLgXGHBqgT2TvpJ_p9L_yZKPifgdBOzdVH
 - [Binary Heap](./content/자료구조/BinaryHeap.md)
 - [Red-Black Tree](./content/자료구조/RedBlackTree.md)
 # [2. 알고리즘](./content/알고리즘.md)
+- [크루스칼](./content/알고리즘/Kruskal.md)
 # [3. 네트워크](./content/네트워크.md)
 # [4. 운영체제](./content/운영체제.md)
 # [5. 데이터베이스](./content/데이터베이스.md)
