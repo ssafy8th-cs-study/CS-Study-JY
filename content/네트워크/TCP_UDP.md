@@ -592,8 +592,8 @@
 
 ## TCP: retransmission scenarios
 - 예시 :
-    ![scenario 1](./img/[네트워크]retransmission1.jpg)    
 
+    ![scenario 1](./img/[네트워크]retransmission1.jpg) 
     ![scenario 2](./img/[네트워크]retransmission2.jpg) 
     
 
