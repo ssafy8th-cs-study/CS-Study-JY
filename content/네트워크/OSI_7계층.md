@@ -86,13 +86,13 @@
         - 마지막으로 switch의 physical 계층에서 비트를 link에 밀어넣어줌.
     - router :
         - switch의 physical 계층에서 밀어넣은 비트는 router의 physical 계층이 받게 됨. 그래서 router의 physical 계층에서는 다시 frame에 속하는 비트를 다 모아서 switch의 link 계층에서 만들었던 frame을 다시 복구해 link 계층으로 올려줌.
-        - 그러면 router의 link 계층에선 switch의 link 계층에서 붙였던 헤더($H_l$)를 보고 한 hop을 제대로 건너갔다는 것을 확인한 다음 이 헤더를 떼어내고 (=source의 network 계층에서 만들었던 datagram을 복구해) network 계층으로 올려주게 됨.
-        - 그러면 router의 network 계층에선 source의 network 계층에서 붙였던 헤더($H_n$)를 보고, 이 목적지 host로 가기 위해선 다음 hop어디로 가야겠구나 길을 결정한 다음 헤더를 떼어내고 다시 자기 헤더($H_n$)를 붙여서 새 datagram을 만들어서 link 계층으로 내려보냄.
-        - 그러면 router의 link 계층에선 또 한 hop을 건너가기 위해서 헤더($H_l$)를 붙여서 새 frame을 만들어서 physical 계층으로 내려보냄.
+        - 그러면 router의 link 계층에선 switch의 link 계층에서 붙였던 헤더 $H_l$를 보고 한 hop을 제대로 건너갔다는 것을 확인한 다음 이 헤더를 떼어내고 (=source의 network 계층에서 만들었던 datagram을 복구해) network 계층으로 올려주게 됨.
+        - 그러면 router의 network 계층에선 source의 network 계층에서 붙였던 헤더 $H_n$ 를 보고, 이 목적지 host로 가기 위해선 다음 hop어디로 가야겠구나 길을 결정한 다음 헤더를 떼어내고 다시 자기 헤더 $H_n$ 를 붙여서 새 datagram을 만들어서 link 계층으로 내려보냄.
+        - 그러면 router의 link 계층에선 또 한 hop을 건너가기 위해서 헤더 $H_l$를 붙여서 새 frame을 만들어서 physical 계층으로 내려보냄.
         - 마지막으로 router의 physical 계층에서 비트를 link에 밀어넣어줌.
     - destination :
         - router의 physical 계층에서 밀어넣은 비트는 destination host의 physical 계층이 받게 됨. 그래서 destination의 physical 계층에서는 다시 frame에 속하는 비트를 다 모아서 router의 link 계층에서 만들었던 frame을 다시 복구해 link 계층으로 올려줌.
-        - 그러면 destination의 link 계층에선 router의 link 계층에서 붙였던 헤더($H_l$)를 보고 한 hop을 제대로 건너갔다는 것을 확인한 다음 이 헤더를 떼어내고(=router의 network 계층에서 만들었던 datagram을 복구해) network 계층으로 올려주게 됨.
-        - 그러면 destination의 network 계층에선 router의 network 계층에서 붙였던 헤더($H_n$)를 보고, 내가 destination이구나를 확인한 다음(destination host니까 잘 왔고 다음 홉은 없구나를 확인) 헤더를 떼어내고(=source의 transport 계층에서 만들었던 segment를 복구해) transport 계층으로 올려주게 됨.
-        - 그러면 destination의 transport 계층에선 source의 transport 계층에서 붙였던 헤더($H_t$)를 보고, process-process delivery가 잘된 것을 확인하고 헤더를 떼어내고(=source의 application 계층에서 만들었던 message를 복구해) application 계층으로 올려주게 됨.
+        - 그러면 destination의 link 계층에선 router의 link 계층에서 붙였던 헤더 $H_l$를 보고 한 hop을 제대로 건너갔다는 것을 확인한 다음 이 헤더를 떼어내고(=router의 network 계층에서 만들었던 datagram을 복구해) network 계층으로 올려주게 됨.
+        - 그러면 destination의 network 계층에선 router의 network 계층에서 붙였던 헤더 $H_n$ 를 보고, 내가 destination이구나를 확인한 다음(destination host니까 잘 왔고 다음 홉은 없구나를 확인) 헤더를 떼어내고(=source의 transport 계층에서 만들었던 segment를 복구해) transport 계층으로 올려주게 됨.
+        - 그러면 destination의 transport 계층에선 source의 transport 계층에서 붙였던 헤더 $H_t$ 를 보고, process-process delivery가 잘된 것을 확인하고 헤더를 떼어내고(=source의 application 계층에서 만들었던 message를 복구해) application 계층으로 올려주게 됨.
         - 그러면 결국 source에서 만들었던 message를 destination의 application 계층에서 받아보게 된다.
