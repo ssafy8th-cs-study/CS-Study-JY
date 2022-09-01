@@ -23,7 +23,7 @@
 - 다음과 같은 서비스를 제공함.
   1. 서버와 클라이언트 사이에 전송되는 데이터를 암호화
   2. 서버와 클라이언트는 공개키 기반 암호 시스템을 이용하여 서로를 인증.
-  3. MAC(Message Authentication Code)을 이용하여 전송되는 모든 메시지의 무결섬을 검사.
+  3. MAC(Message Authentication Code)을 이용하여 전송되는 모든 메시지의 무결성을 검사.
 - 현재 웹브라우저를 포함한 많은 응용프로그램에 TLS 패키지가 내장되어 있음.
 - HTTP에 SSL/TLS를 적용시킨 것이 바로 HTTPS.
 
@@ -41,7 +41,7 @@
   - TLS는 TCP/IP 모델의 응용계층에 포함됨.
   - 응용계층이 2층으로 나뉘어져 있는 것.<br/><br/>
 - 상위 계층: Handshake Protocol, Change Cipher Specification Protocol, Alert Protocol, Heartbeat Protocol
-- 하위 계층: Record Protocol - 상위 계층 프로토콜에 기본적인 보안 서비스 제공. (실제로 보안 행위를 수행하는 프로토콜. 서명, 암호화 등이 이루어짐.)
+- 하위 계층: Record Protocol - 상위 계층 프로토콜에 기본적인 보안 서비스 제공. (실제로 보안 행위를 수행하는 프로토콜. 데이터 암호화, MAC 생성 등이 이루어짐.)
 - HTTP도 TLS 위에서 동작 가능하다. (예: HTTPS) (기존의 HTTP를 계층에 포함시켜둬서 일반 메시지는 HTTP 통해서 나갈 수 있음.)
   - 데이터가 일반적인 웹페이지일 경우 HTTP, 레코드 프로토콜, TCP, IP 순으로 데이터가 내려감.
   - 문제가 발생해서 경고 메시지일 경우엔 경고 프로토콜, 레코드 프로토콜, TCP, IP 순으로 내려감.
