@@ -71,7 +71,7 @@ https://www.youtube.com/playlist?list=PLgXGHBqgT2TvpJ_p9L_yZKPifgdBOzdVH
 - [프로세스 스레드](./content/운영체제/프로세스_스레드.md)
 - [CPU 스케쥴러](./content/운영체제/CPU_스케쥴러.md)
 - [프로세스 동기화](./content/운영체제/프로세스_동기화.md)
-- [교착 상태](./content/운영체제/교착상태.md) (발표)
+- [교착 상태](./content/운영체제/교착상태.md)
 - [물리 메모리 관리](./content/운영체제/물리_메모리_관리.md)
 
 # [5. 데이터베이스](./content/데이터베이스.md)
