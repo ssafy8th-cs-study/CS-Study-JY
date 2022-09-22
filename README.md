@@ -73,6 +73,9 @@ https://www.youtube.com/playlist?list=PLgXGHBqgT2TvpJ_p9L_yZKPifgdBOzdVH
 - [프로세스 동기화](./content/운영체제/프로세스_동기화.md)
 - [교착 상태](./content/운영체제/교착상태.md)
 - [물리 메모리 관리](./content/운영체제/물리_메모리_관리.md)
+- [가상 메모리의 기초](./content/운영체제/가상_메모리의_기초.md)
+- [가상 메모리 관리](./content/운영체제/가상_메모리_관리.md)
+- [입출력 시스템과 저장장치](./content/운영체제/입출력_시스템과_저장장치.md)
 
 # [5. 데이터베이스](./content/데이터베이스.md)
 
