@@ -79,6 +79,8 @@ https://www.youtube.com/playlist?list=PLgXGHBqgT2TvpJ_p9L_yZKPifgdBOzdVH
 
 # [5. 데이터베이스](./content/데이터베이스.md)
 
+- [정규화](./content/데이터베이스/정규화.md)
+
 # [6. 웹](./content/웹.md)
 
 # [7. 자바](./content/자바.md)
