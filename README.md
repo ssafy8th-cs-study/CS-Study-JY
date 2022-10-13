@@ -68,19 +68,14 @@ https://www.youtube.com/playlist?list=PLgXGHBqgT2TvpJ_p9L_yZKPifgdBOzdVH
 # [4. 운영체제](./content/운영체제.md)
 
 - [운영체제의 구조와 정의](./content/운영체제/운영체제의_구조와_정의.md)
-- [프로세스 스레드](./content/운영체제/프로세스_스레드.md)
-- [CPU 스케쥴러](./content/운영체제/CPU_스케쥴러.md)
-- [프로세스 동기화](./content/운영체제/프로세스_동기화.md)
 - [교착 상태](./content/운영체제/교착상태.md)
-- [물리 메모리 관리](./content/운영체제/물리_메모리_관리.md)
 - [가상 메모리의 기초](./content/운영체제/가상_메모리의_기초.md)
-- [가상 메모리 관리](./content/운영체제/가상_메모리_관리.md)
-- [입출력 시스템과 저장장치](./content/운영체제/입출력_시스템과_저장장치.md)
 
 # [5. 데이터베이스](./content/데이터베이스.md)
 
 - [정규화](./content/데이터베이스/정규화.md)
 - [Join](./content/데이터베이스/Join.md)
+- [ORM](./content/데이터베이스/ORM.md)
 
 # [6. 웹](./content/웹.md)
 
