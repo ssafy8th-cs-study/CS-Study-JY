@@ -267,6 +267,7 @@
 <br/>
 
 - JPA vs Spring Data JPA :
+  
   <img src="./img/[데이터베이스]spring_data_jpa_3.png" width="500" height="300"/>
 
 <br/>
