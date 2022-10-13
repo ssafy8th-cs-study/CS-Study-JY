@@ -144,6 +144,8 @@
 
 ## ORM(Object Relational Mapping)
 
+<img src="./img/[데이터베이스]orm_comparison.png" width="500" height="300"/>
+
 - JDBC API 너무 불편하고 코드 많다
   <br/>
   -> Spring JDBC 등장.
